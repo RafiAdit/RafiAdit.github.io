@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+header{
+    height:60px;
+}
+.logo{
+    height:60px
+}
+.logo ul{
+    float: right;
+    margin-top: 35px;
+
+}
+.logo ul li{
+    display: inline-block;
+}
+.logo ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.logo ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.logo ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "montserral", sans-serif;
+} 
+
+body {
+    background-color: #ff8800;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.container .box-left {
+    width: 280px;
+    background-color: #ff9900;
+
+}
+.container .box-left .profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .box-left .content {
+    padding: 0 25px;
+}
+
+.container .resume-item {
+    padding: 25px 0;
+    border-bottom: 2px solid #ff8800;
+}
+
+.container .title {
+    margin-bottom: 20px;
+}
+
+.container .box-left .bold {
+    color: white;
+}
+
+.container .box-left .regular {
+    color: #d2e1e4;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.container .box-left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.container.box-left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.container .box-left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: #353e4e;
+    border-radius: 50%;
+    font-size: 16px;
+    position: relative;
+}
+
+.container .box-left ul li .data{
+    color: #d2e1e4;
+}
+
+
+.container .box-left .resume-skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #d9e114;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .box-left .resume-skills ul li .skill-name {
+    width: 25%;
+}
+
+.container .box-left .resume-skills ul li .skill-progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background-color: #ff5c5c;
+    position: relative;
+}
+
+.container .box-left .resume-skills ul li .skill-progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+}
+
+.container .box-left .resume-skills ul li .skill-parcent {
+    width: 15%;
+}
+
+.container .box-left .resume-social .semi-bold {
+    color: white;
+    margin-bottom: 3px;
+}
+
+.semi-bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container .box-right {
+    width: 520px;
+    background-color: white;
+    padding: 25px;
+}
+
+.container .box-left .resume-item:last-child, .container .box-right .resume-item:last-child{
+    border-bottom: 0px;   
+}
+
+.container .box-right .bold {
+    color: #333e51;
+}
+
+.container.box-right ul li {
+    position: relative;
+}
+
+.container .box-right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.container .box-right ul li .info {
+    margin-bottom: 20px;
+}
+
+.container .box-right ul li:last-child .info {
+    margin-bottom: 0;
+}
+
+.container .icon i,
+.container .box-right .resume-hobby ul li i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .box-right .resume-hobby ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .box-right .resume-hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333e51;
+    border-radius: 50%;
+    position: relative;
+    color: #333e51;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Add hover effect */
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover {
+    border: 1px solid #ff8800;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    padding: 15px 20px;
+    border: none;
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff9900;
+}
+
+/* Center the form within the container */
+.container1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Add some styling to the form heading */
+.container1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff8800;
+}
+
+/* Style the labels */
+.container1 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff8800;
+}
